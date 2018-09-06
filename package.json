@@ -1,0 +1,36 @@
+{
+    "name": "cql-language",
+    "displayName": "cql-language",
+    "description": "Clinical Quality Language support and syntax highlighting for VSCode",
+    "version": "0.0.1",
+    "publisher": "athenahealth",
+    "author": {
+        "name": "Andrew Thomas"
+    },
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "icon": "icon/athn.jpg",
+    "contributes": {
+        "languages": [{
+            "id": "cql",
+            "aliases": ["Clinical Quality Language", "cql"],
+            "extensions": [".cql"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cql",
+            "scopeName": "source.cql",
+            "path": "./syntaxes/cql.tmLanguage.json"
+        }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/athenahealth/vscode-cql-language.git"
+    },
+    "homepage": "https://github.com/athenahealth/vscode-cql-language/blob/master/README.md",
+    "license": "SEE LICENSE IN LICENSE.txt"
+}

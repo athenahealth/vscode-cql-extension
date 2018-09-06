@@ -3,11 +3,9 @@
 Adds syntax highlighting to CQL files in VSCode. Adapted from the [atom_cql_support](https://github.com/cqframework/atom_cql_support) package for Atom.
 
 ## How to Install
-
-The [cql-language](https://marketplace.visualstudio.com/items?itemName=athenahealth.cql-language) extension has been published to the VSCode extension repository, so installation is simple:
-
 1. If you don't have Visual Studio Code, [download](https://code.visualstudio.com/) and install it.
-2. Install the _cql-language_ extension by follow the instructions for [installing extensions](https://code.visualstudio.com/docs/editor/extension-gallery).
+2. Clone or copy this repository into your Visual Studio Code extensions folder (see https://vscode-docs.readthedocs.io/en/stable/extensions/install-extension/ for help on finding where this is located on your machine).
+3. From Visual Studio Code, check the available extensions. Enable the `cql-language` extension.
 
 ## Using the CQL support extension in VSCode
 
